@@ -2,6 +2,12 @@
 
 An intelligent full-stack web application designed to streamline your workflow by summarizing long meeting transcripts and facilitating easy sharing. Users can upload text, provide custom instructions, and generate concise, editable summaries powered by the Groq AI API. The final summary can be shared directly via email.
 
+
+
+https://github.com/user-attachments/assets/9cadc790-3f06-4964-96d8-74cf7cccb553
+
+
+
 ## ✨ Features
 
 ### 📝 Upload Transcripts: Easily paste any length of text, such as meeting notes or call transcripts.
