@@ -117,3 +117,8 @@ The Backend is deployed as a Web Service on Render. It connects to a MongoDB Atl
 The Frontend is deployed on Vercel. It is configured to make API calls to the live Render backend URL.
 
 This setup ensures a scalable and efficient separation of concerns.
+
+
+**HARSH BAJAJ
+bajajharsh154@gmail.com
+9258080924**
