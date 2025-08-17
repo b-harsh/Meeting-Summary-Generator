@@ -1,7 +1,7 @@
-### AI Meeting Notes Summarizer
+🚀 AI Meeting Notes Summarizer
 An intelligent full-stack web application designed to streamline your workflow by summarizing long meeting transcripts and facilitating easy sharing. Users can upload text, provide custom instructions, and generate concise, editable summaries powered by the Groq AI API. The final summary can be shared directly via email.
 
-Features
+✨ Features
 📝 Upload Transcripts: Easily paste any length of text, such as meeting notes or call transcripts.
 
 🤖 Custom AI Prompts: Guide the AI by providing custom instructions (e.g., "Summarize for an executive audience," "Extract only action items").
@@ -14,7 +14,7 @@ Features
 
 💾 Persists Data: Saves a copy of the original transcript and the final summary to a MongoDB database.
 
-Tech Stack
+🛠️ Tech Stack
 This project is a full-stack MERN application, built with a focus on modern, efficient, and scalable technologies.
 
 Frontend
@@ -41,7 +41,7 @@ Nodemailer: A module for sending emails from the Node.js server.
 
 Render: The platform used for deploying the backend.
 
-Getting Started
+🏁 Getting Started
 To get a local copy up and running, follow these simple steps.
 
 Prerequisites
@@ -112,7 +112,7 @@ npm start
 
 Your application should automatically open in your browser at http://localhost:3000.
 
-Deployment
+🚀 Deployment
 This application is deployed with a decoupled frontend and backend architecture.
 
 The Backend is deployed as a Web Service on Render. It connects to a MongoDB Atlas cluster and handles all API logic, including communication with the Groq API and sending emails.
