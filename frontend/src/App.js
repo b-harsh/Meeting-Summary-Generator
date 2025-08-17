@@ -3,6 +3,8 @@ import axios from 'axios';
 import { marked } from 'marked';
 import './App.css';
 
+const API_URL = 'https://meeting-summary-generator.onrender.com';
+
 function App() {
   const [transcript, setTranscript] = useState('');
   const [prompt, setPrompt] = useState(
@@ -31,7 +33,7 @@ function App() {
     setIsEditing(false);
 
     try {
-      const response = await axios.post('/api/generate', {
+      const response = await axios.post(`${API_URL}/api/generate`, {
         transcript,
         prompt,
       });
@@ -55,12 +57,12 @@ function App() {
     setIsEditing(false);
 
     try {
-      await axios.post('/api/summaries', {
+      await axios.post(`${API_URL}/api/summaries`, {
         originalTranscript: transcript,
         summaryText: summary,
       });
 
-      const shareResponse = await axios.post('/api/share', {
+      const shareResponse = await axios.post(`${API_URL}/api/share`, {
         recipientEmail,
         summaryText: summary,
         transcript: transcript,
