@@ -10,12 +10,13 @@ https://github.com/user-attachments/assets/9cadc790-3f06-4964-96d8-74cf7cccb553
 
 ## ✨ Features
 
-### 📝 Upload Transcripts: Easily paste any length of text, such as meeting notes or call transcripts.
-### 🤖 Custom AI Prompts: Guide the AI by providing custom instructions (e.g., "Summarize for an executive audience," "Extract only action items").
-### ⚡ Fast Summarization: Leverages the high-speed Groq API to generate summaries almost instantly.
-### ✏️ Editable Summaries: The generated summary is fully editable, allowing for tweaks and corrections before sharing. The application supports Markdown rendering for styled text like bolding and bullet points.
-### 📧 Share via Email: Enter a recipient's email address to send the final, styled summary directly from the application.
-### 💾 Persists Data: Saves a copy of the original transcript and the final summary to a MongoDB database.
+📝 **Upload Transcripts**: Easily paste any length of text, such as meeting notes or call transcripts.
+🤖 **Custom AI Prompts**: Guide the AI by providing custom instructions (e.g., "Summarize for an executive audience," "Extract only action items").
+⚡ **Fast Summarization**: Leverages the high-speed Groq API to generate summaries almost instantly.
+✏️ **Editable Summaries**: The generated summary is fully editable, allowing for tweaks and corrections before sharing. The application supports Markdown rendering for styled text like bolding and bullet points.
+📧 **Share via Email**: Enter a recipient's email address to send the final, styled summary directly from the application.
+💾 **Persists Data**: Saves a copy of the original transcript and the final summary to a MongoDB database.
+
 ### 🛠️ Tech Stack
 This project is a full-stack MERN application, built with a focus on modern, efficient, and scalable technologies.
 
@@ -71,18 +72,18 @@ Create a new file named .env.
 
 Copy the contents of .env.example (or the structure below) into your new .env file and fill in your credentials.
 
-# backend/.env
+## backend/.env
 
-### Server Port
+#### Server Port
 PORT=5001
-### MongoDB Connection String
+#### MongoDB Connection String
 MONGO_URI=your_mongodb_connection_string
-### Groq API Key
+#### Groq API Key
 GROQ_API_KEY=your_groq_api_key
-### Gmail Credentials for Nodemailer
-### NOTE: EMAIL_PASS must be a 16-character App Password from your Google Account
-### EMAIL_USER=your-email@gmail.com
-### EMAIL_PASS=your_16_character_app_password
+#### Gmail Credentials for Nodemailer
+#### NOTE: EMAIL_PASS must be a 16-character App Password from your Google Account
+#### EMAIL_USER=your-email@gmail.com
+#### EMAIL_PASS=your_16_character_app_password
 
 **Running the Application**
 
@@ -92,7 +93,7 @@ Start the backend server:
 
 In your first terminal, navigate to the backend directory.
 
-# From the /backend directory
+## From the /backend directory
 
 ```
 npm run dev
@@ -102,7 +103,7 @@ Your backend should now be running on http://localhost:5001.
 Start the frontend development server:
 In your second terminal, navigate to the frontend directory.
 
-# From the /frontend directory
+## From the /frontend directory
 
 ```
 npm start
@@ -119,6 +120,5 @@ The Frontend is deployed on Vercel. It is configured to make API calls to the li
 This setup ensures a scalable and efficient separation of concerns.
 
 
-**HARSH BAJAJ
-bajajharsh154@gmail.com
-9258080924**
+**                                                                                                                                  **HARSH BAJAJ || bajajharsh154@gmail.com || 9258080924**
+**
